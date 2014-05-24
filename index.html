@@ -7,6 +7,7 @@
 		<script type="text/javascript">
 			codepen = window.codepen || {};
 			codepen.api = {};
+			codepen.objects = {};
 		</script>
 	</head>
 
@@ -20,11 +21,12 @@
 			<div class="form-modal">
 
 				<nav>
-					<a href="#" class="login-form-btn active">Login</a>
+					<a href="#" class="login-form-btn">Login</a>
 					<a href="#" class="signup-form-btn">Sign Up</a>
 				</nav>
 
 				<div class="login-form">
+					<p class="error"></p>
 					<form>
 						<div class="form-row">
 							<label for="login-username-field">Username</label>
